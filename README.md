@@ -13,7 +13,9 @@ Efter att ha installerat Arduino IDE behöver man konfigurera nödvändiga inst�
 4. Gå vidare till Board Manager, sök då efter ESP8266 och installera.
 5. Navigera till tools ➡️ Board ➡️ ESP8266  ➡️ Generic ESP8266 Module
 
-![IMG_2447](https://github.com/user-attachments/assets/35b565ce-ff8b-4d5f-a04a-5d60373a02f9)
+<img src="https://github.com/user-attachments/assets/35b565ce-ff8b-4d5f-a04a-5d60373a02f9" width="75%">
+
+
 
 Du har nu konfigurerat ditt valda Plusivo Board!
 
@@ -34,14 +36,14 @@ Går man in på file ➡️ Examples ➡️ 01. Basics ➡️ Blink, så hittar 
 
 <img width="634" height="415" alt="IMG_2442" src="https://github.com/user-attachments/assets/95fb7b2d-a8c7-4927-b307-fb92dbff1578" />
 
-#Kod
+# Kod
 
 Koden nedanför styr den inbyggda LED-lampan som finns på ett Arduino kort så att den blinkar med intervall. *Void setup ()* körs en gång när Atduino startas eller återställs, då ställs den in inbyggda LED in som en utgång med hjälp av *pinMode(LED_BUILTIN, HIGH);* . Det här gör så att Arduino kan skicka signaler för att tända eller släcka lampan.
 
 *Void loop ()* Som körs kontinuerligt tänder programmet med 1000 millisekunders mellanrum med kommandot *delay (1000);* vilket skapar en blinkande effekt genom att använda kommandona *digitalWrite(LED_BUILTIN, HIGH);* och *digitalWrite(LED_BUILTIN, LOW) ;* . Slutligen så avslutas processen med hjälp av måsvingen *}* .
 
 
-<img width="837" height="1043" alt="IMG_2443" src="https://github.com/user-attachments/assets/c100c7c2-7617-4c8f-8cd2-3eea4f05e850" />
+<img width="650" alt="IMG_2443" src="https://github.com/user-attachments/assets/c100c7c2-7617-4c8f-8cd2-3eea4f05e850" />
 
 
 
