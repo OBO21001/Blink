@@ -2,7 +2,8 @@
 I denna repo ska jag demonstrera grundläggande kunskaper i att genomföra ett Blink-program med två typiska basfunktioner, samt konfiguration av Arduino.
 
 
-# Arduino
+# Arduino <img width="40" alt="Arduino_IDE_logo svg" src="https://github.com/user-attachments/assets/64babc66-e9fb-4022-956a-9f453149699a" />
+
 Efter att ha installerat Arduino IDE behöver man konfigurera nödvändiga inställningar för att kunna sammanställa och ladda upp kod som skickas sen till Arduino kortets mikrokontroller via USB-kabeln, genom att följa nedanstående instruktioner:
 
 ## Konfiguera Boards Manager:
