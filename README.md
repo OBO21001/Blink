@@ -32,12 +32,16 @@ Inom Arduino programmering, och liknande program, använder man sig av två basf
 
 Går man in på file ➡️ Examples ➡️ 01. Basics ➡️ Blink, så hittar du ett färdiggjort exemple av kod till ett Blinkprogram.
 
+<img width="634" height="415" alt="IMG_2442" src="https://github.com/user-attachments/assets/95fb7b2d-a8c7-4927-b307-fb92dbff1578" />
+
 #Kod
 
 Koden nedanför styr den inbyggda LED-lampan som finns på ett Arduino kort så att den blinkar med intervall. *Void setup ()* körs en gång när Atduino startas eller återställs, då ställs den in inbyggda LED in som en utgång med hjälp av *pinMode(LED_BUILTIN, HIGH);* . Det här gör så att Arduino kan skicka signaler för att tända eller släcka lampan.
 
 *Void loop ()* Som körs kontinuerligt tänder programmet med 1000 millisekunders mellanrum med kommandot *delay (1000);* vilket skapar en blinkande effekt genom att använda kommandona *digitalWrite(LED_BUILTIN, HIGH);* och *digitalWrite(LED_BUILTIN, LOW) ;* . Slutligen så avslutas processen med hjälp av måsvingen *}* .
 
+
+<img width="837" height="1043" alt="IMG_2443" src="https://github.com/user-attachments/assets/c100c7c2-7617-4c8f-8cd2-3eea4f05e850" />
 
 
 
