@@ -21,6 +21,7 @@ Inom Arduino programmering, och liknande program, använder man sig av två basf
 
 <img width="113" height="74" alt="Screenshot 2025-12-05 at 08 22 51" src="https://github.com/user-attachments/assets/3c47b449-0e45-496f-ba88-f8b8e5f9bc59" />
 
+
 🔵 Void setup () körs en gång när programmet startar upp. Här bör man alltså placera sånt som ska förberedas innan programmets funktion börjar, ex. Att ställa in I/O-pinnar.
 
 🔵 Void loop () körs upprepade gånger, så länge Arduino är påslagen och aktiv. Här placeras alltså funktionerna du vill att den ska kunna utföra, ex. Att läsa sensorer och skicka datan till en databank.
@@ -28,6 +29,13 @@ Inom Arduino programmering, och liknande program, använder man sig av två basf
 # Blinkprogram
 
 Går man in på file ➡️ Examples ➡️ 01. Basics ➡️ Blink, så hittar du ett färdiggjort exemple av kod till ett Blinkprogram.
+
+#Kod
+
+Koden nedanför styr den inbyggda LED-lampan som finns på ett Arduino kort så att den blinkar med intervall. Void setup () körs en gång när Atduino startas eller återställs, då ställs den in inbyggda LED in som en utgång med hjälp av pinMode(LED_BUILTIN, HIGH); . Det här gör så att Arduino kan skicka signaler för att tända eller släcka lampan.
+
+Void loop () Som körs kontinuerligt tänder programmet med 1000 millisekunders mellanrum med kommandot delay (1000); vilket skapar en blinkande effekt genom att använda kommandona digitalWrite(LED_BUILTIN, HIGH); och digitalWrite(LED_BUILTIN, LOW) ; . Slutligen så avslutas processen med hjälp av måsvingen } .
+
 
 
 
